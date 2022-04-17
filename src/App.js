@@ -12,10 +12,10 @@ function App() {
     <div>
       <Header></Header>
       <main>
-        <About></About>
+        {/* <About></About> */}
+        <Project></Project>
+        <Footer></Footer>    
       </main>
-      <Project></Project>
-      <Footer></Footer>    
     </div>
   );
 }
