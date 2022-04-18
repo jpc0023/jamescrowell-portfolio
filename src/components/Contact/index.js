@@ -20,7 +20,7 @@ function ContactForm() {
               } 
         } else {
             if (!e.target.value.length) {
-              setErrorMessage(`${e.target.name} is required.`);
+              setErrorMessage(`Name is required.`);
             } else {
               setErrorMessage('');
             }
@@ -36,7 +36,7 @@ function ContactForm() {
     }
 
     return(
-        <section>
+        <section id='contactbox'>
             <h1>Contact me</h1>
             <form id='contact-form' onSubmit={handleSubmit} >
             <div>

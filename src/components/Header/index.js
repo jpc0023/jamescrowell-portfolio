@@ -24,7 +24,8 @@ const Header = (props) => {
     return (
         <header >
             <div className="px-1 my-5">
-                <h1 className="px-1 name"><span className="topper"><span className="firstletter">J</span>ames</span> <span className="bottomer"><span className="firstletter">C</span>rowell</span></h1>
+                <h1 className="px-1 name">
+                    <span className="topper"><span className="firstletter">J</span>ames</span> <span className="bottomer"><span className="firstletter">C</span>rowell</span></h1>
                 <ul className="flex-row heads">
 
                     <li className="mx-2 links">
