@@ -17,27 +17,28 @@ const Header = (props) => {
         document.title = capitalizeFirstLetter("testt");
     }, [currentCategory]);
 
-    function categorySelected(name) {
-        console.log(`${currentCategory.name} clicked`)
-    }
+    // function categorySelected(name) {
+    //     console.log(`${currentCategory.name} clicked`)
+    // }
 
     return (
-        <header className="flex-row px-1">
-
-                <h1 className="my-5 px-1">James Crowell</h1>
-            
-            <nav>
+        <header >
+            <div className="px-1 my-5">
+                <h1 className="px-1 name"><span className="topper"><span className="firstletter">J</span>ames</span> <span className="bottomer"><span className="firstletter">C</span>rowell</span></h1>
                 <ul className="flex-row">
-                    <li className="mx-2">
+
+                    <li className="mx-2 links">
                         <a href="#about" onClick={() => setContactSelected(false)}>
                             About Me
                         </a>
                     </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+
+                    <li className={`mx-2 links ${contactSelected && 'navActive'}`}>
                         <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
+
                     {categories.map((category) => (
-                        <li className={`mx-1 ${
+                        <li className={`mx-1 links ${
                             currentCategory.name === category.name && 'navActive'
                         }`}
                         key={category.name}
@@ -53,7 +54,7 @@ const Header = (props) => {
                         </li>
                     ))}
                 </ul>
-            </nav>
+                </div>
         </header>
     );
 };

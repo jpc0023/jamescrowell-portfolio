@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import ContactForm from './components/Contact';
+import About from './components/About';
 
 function App() {
 
@@ -12,28 +13,17 @@ function App() {
   const [categories] = useState([
     {
         name: 'Portfolio',
-        description: 'description'
+        description: 'sample of projects completed'
     },
-    {name: 'Resume', description: 'description 2'},
+    {name: 'Resume', description: 'sample of skills and qualifications'},
     // {name: 'word 3', description: 'description 3'},
     // {name: 'word 4', description: 'description 4'},
   ]);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  // const [contactSelected, setContactSelected] = useState(false);
-  // const [categories] = useState([
-  //   {
-  //     name: 'commercial',
-  //     description: 'Photos of grocery stores, food trucks, and other commercial projects',
-  //   },
-  //   { name: 'portraits', description: 'Portraits of people in my life' },
-  //   { name: 'food', description: 'Delicious delicacies' },
-  //   { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  // ]);
-
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  
 
   return (
-    <div>
+    <div id='appmain'>
       <Header
         categories={categories}
         setCurrentCategory={setCurrentCategory}
@@ -43,9 +33,12 @@ function App() {
         >
       </Header>
       <main>
+        
         {!contactSelected ? (
           <>
+        <About></About> 
         <Project currentCategory={currentCategory}></Project> 
+        
         </>
         ) : (
           <ContactForm></ContactForm>

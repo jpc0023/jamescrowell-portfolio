@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Project from '../Project'
 import photo from '../../assets/images/taskmasterpro.jpg';
 
 
@@ -105,7 +104,8 @@ const Work = (props) => {
       ]);
 
   return (
-    <div className='flex-row'>
+      <figure>
+    <div className='photobox'>
         {/* <div className='flex-row'>
             {photos.map((image, i) => (
                 <img
@@ -121,7 +121,9 @@ const Work = (props) => {
           alt="Commercial Example"
           className='img-thumbnail mx-1'
         />
+        <figcaption>What will this show?</figcaption>
     </div>
+    </figure>
   )
 }
 
