@@ -25,7 +25,7 @@ function Project( {currentCategory} ) {
                 <div id="lineup">
                     <div id="box-3" className="box relative">
                         
-                        <img id="image-3" src={photo}/>
+                        <img id="image-4" src={photo}/>
                             <span className="caption fade-caption">
                             <h4>Run Buddy</h4>
                             <p> <hr></hr></p>
@@ -35,7 +35,7 @@ function Project( {currentCategory} ) {
                     </div>
                     <div id="box-3" className="box relative">
                   
-                        <img id="image-3" src={photo}/>
+                        <img id="image-4" src={photo}/>
                             <span className="caption fade-caption">
                             <h4>Fade Caption</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -44,7 +44,7 @@ function Project( {currentCategory} ) {
                     </div>
                     <div id="box-3" className="box">
    
-                        <img id="image-3" src={photo}/>
+                        <img id="image-4" src={photo}/>
                             <span className="caption fade-caption">
                             <h4>Fade Caption</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -53,7 +53,7 @@ function Project( {currentCategory} ) {
                     </div>
                     <div id="box-3" className="box relative">
        
-                        <img id="image-3" src={photo}/>
+                        <img id="image-4" src={photo}/>
                             <span className="caption fade-caption">
                             <p>Fade Caption</p>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>

@@ -198,7 +198,7 @@ textarea {
   margin-top: auto;
 }
 
-ul {
+.heads {
   display: flex;
   float: right;
   margin-left: auto;
@@ -243,7 +243,7 @@ header {
   color: var(--maize-crayola);
   background-color:var(--eerie-black);
   padding: 3px 20px;
-  border: 2.0px dashed var(--jet);
+  border: 2.0px solid var(--jet);
   border-radius: 12px;
 }
 
@@ -307,13 +307,130 @@ header {
 
 #image-3 {
   display: flex;
-  width: auto;
-  height: auto;
+  width: 60%;
+  margin: auto;
 }
 
+#image-4 {
+  display: flex;
+  width: auto;
+  margin: auto;
+}
+
+#aboutme {
+  display: flex;
+  /* border: 1px solid pink; */
+  padding: 0px 0px;
+  margin: -10px -10px 0 -20px;
+}
+
+.abouttext {
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(121, 185, 222);
+}
+
+h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  font-size: 3.0rem;
+  color:var(--gainsboro);
+  /* border: 2px dashed blue; */
+}
+
+/* .red {
+  color: rgb(194, 25, 25);
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: blue;
+} */
+
+#about {
+  display: flex;
+  /* border: 2px dashed blue; */
+  
+}
+
+.column h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  font-size: 3.0rem;
+  /* border: 2px dashed blue; */
+}
+
+.ordered li {
+  list-style: disc;
+  font-size: 18px;
+  /* background-color: rgb(148, 100, 29); */
+  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+  /* border: 2px solid white; */
+  margin: auto;
+  justify-content: space-evenly;
+  text-align: center;
+  
+  
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 45px 0px 45px 95px;
+  /* border: 2px solid white; */
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-evenly;
+  align-self: flex-start;
+  text-align: center;
+  /* background-color: #0cbaba; */
+  /* background-image: linear-gradient(-45deg, #21d3d3 0%, #5e1316 74%);
+  border-radius: 200% 0% 0% 200%; */
+
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.user {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  
+}
+
+
 #mainwrapper .box {
-
-
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   -o-transition: all 300ms ease-out;
