@@ -81,7 +81,7 @@ function Project() {
                         <img id="image-4" src={codequiz}/>
                             <span className="caption fade-caption">
                             <h4>Code Quiz</h4>
-                            <p>Simple multiple choice code quiz demontsrating the use of Javascript</p>
+                            <p>Simple multiple choice code quiz demonstrating the use of Javascript</p>
                             <p className="caption-bottom">
                                 <a href="https://jpc0023.github.io/challenge-four-jpc0023/" target={'_blank'}>Deployed link</a>
                             </p>
