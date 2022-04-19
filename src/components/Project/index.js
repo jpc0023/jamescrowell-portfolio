@@ -8,15 +8,13 @@ import regex from '../../assets/images/regex.jpg'
 import codequiz from '../../assets/images/codequiz.jpg'
 import password from '../../assets/images/passwordgenerator.jpg'
 
-function Project( {currentCategory} ) {
+function Project() {
 
-    const { name, description } = currentCategory;
+
 
     return (
         <section id="mainwrapper" className="col-3">
-            
-                <h1>{capitalizeFirstLetter(name)}</h1>
-                <p>{description}</p>
+
                 {/* <div className="photobox">
                     <img
                         src={photo}
@@ -35,6 +33,9 @@ function Project( {currentCategory} ) {
                             <h4>Run Buddy</h4>
                             <p> <hr></hr></p>
                             <p>html5, css3</p>
+                            <p className="caption-bottom">
+                                <a href="https://jpc0023.github.io/run-buddy/" target={'_blank'}>Deployed link</a>
+                            </p>
                             </span>
                   
                     </div>
@@ -44,6 +45,9 @@ function Project( {currentCategory} ) {
                             <span className="caption fade-caption">
                             <h4>News4U</h4>
                             <p>Collaborative work to design a site using third party APIs</p>
+                            <p className="caption-bottom">
+                                <a href="https://rpkrupali1.github.io/News4U/" target={'_blank'}>Deployed link</a>
+                            </p>
                             </span>
    
                     </div>
@@ -53,6 +57,9 @@ function Project( {currentCategory} ) {
                             <span className="caption fade-caption">
                             <h4>Task Master Pro</h4>
                             <p>Task management app using javascript</p>
+                            <p className="caption-bottom">
+                                <a href="https://jpc0023.github.io/taskmaster-pro/" target={'_blank'}>Deployed link</a>
+                            </p>
                             </span>
             
                     </div>
@@ -62,6 +69,9 @@ function Project( {currentCategory} ) {
                             <span className="caption fade-caption">
                             <h4>Regular Expression</h4>
                             <p>This markdown describes the function of the regular expression code and its requirements</p>
+                            <p className="caption-bottom">
+                                <a href="https://gist.github.com/jpc0023/6ffb2b1b15b2e7ee87dc069024b78174" target={'_blank'}>Deployed link</a>
+                            </p>
                             </span>
                        
                     </div>
@@ -72,6 +82,9 @@ function Project( {currentCategory} ) {
                             <span className="caption fade-caption">
                             <h4>Code Quiz</h4>
                             <p>Simple multiple choice code quiz demontsrating the use of Javascript</p>
+                            <p className="caption-bottom">
+                                <a href="https://jpc0023.github.io/challenge-four-jpc0023/" target={'_blank'}>Deployed link</a>
+                            </p>
                             </span>
                         
                     </div>
@@ -82,7 +95,9 @@ function Project( {currentCategory} ) {
                             <span className="caption fade-caption">
                             <h4>Password Generator</h4>
                             <p>Random password generator based on selected criteria displays use of Javascript</p>
-                            </span>
+                            <p className="caption-bottom">
+                                <a href="https://jpc0023.github.io/secure-password-generator/" target={'_blank'}>Deployed link</a>
+                            </p></span>
                         
                     </div>
             

@@ -7,14 +7,14 @@ function About() {
 
       <div className='row'>
 
-          <div className='column'>
+          <div className='column-left'>
             <h2 id="about">James Crowell</h2>
             <img id='image-3' className='user' src={pfp}></img>
           </div>
 
           <div className='column-right'>
             <h2>Full Stack Web Developer</h2>
-            <div className='row'>
+            <div className='row-right'>
               <div className='column'>
               <p className='abouttext'>Full stack web developer educated at Michigan State University Coding Bootcamp. Skilled in HTML, CSS, JavaScript and more.
                   Passionate about approaching programming challenges from different angles and collaborating
