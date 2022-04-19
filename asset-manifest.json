@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jpc0023/jamescrowell-portfolio/static/css/main.8702e918.css",
+    "main.js": "/jpc0023/jamescrowell-portfolio/static/js/main.5ae34ebd.js",
+    "static/js/787.85b8a7dc.chunk.js": "/jpc0023/jamescrowell-portfolio/static/js/787.85b8a7dc.chunk.js",
+    "static/media/Octocat.png": "/jpc0023/jamescrowell-portfolio/static/media/Octocat.363cb5edea582a89c41f.png",
+    "static/media/pfp.jpg": "/jpc0023/jamescrowell-portfolio/static/media/pfp.12074f9ae4610662c944.jpg",
+    "static/media/News4Uscreenshot.jpg": "/jpc0023/jamescrowell-portfolio/static/media/News4Uscreenshot.8ce9abeef8d50d1c3051.jpg",
+    "static/media/run-buddy.jpg": "/jpc0023/jamescrowell-portfolio/static/media/run-buddy.3d1f7e0fe0ee91da9174.jpg",
+    "static/media/regex.jpg": "/jpc0023/jamescrowell-portfolio/static/media/regex.e04d2e81bfdd316334bf.jpg",
+    "static/media/passwordgenerator.jpg": "/jpc0023/jamescrowell-portfolio/static/media/passwordgenerator.92832e511323bfc65ffa.jpg",
+    "static/media/taskmasterpro.jpg": "/jpc0023/jamescrowell-portfolio/static/media/taskmasterpro.b084b40427f9045f378f.jpg",
+    "static/media/codequiz.jpg": "/jpc0023/jamescrowell-portfolio/static/media/codequiz.e72a1ba0f2fdda15c975.jpg",
+    "static/media/LI-Logo.png": "/jpc0023/jamescrowell-portfolio/static/media/LI-Logo.a95afc06831647f5fca2.png",
+    "index.html": "/jpc0023/jamescrowell-portfolio/index.html",
+    "main.8702e918.css.map": "/jpc0023/jamescrowell-portfolio/static/css/main.8702e918.css.map",
+    "main.5ae34ebd.js.map": "/jpc0023/jamescrowell-portfolio/static/js/main.5ae34ebd.js.map",
+    "787.85b8a7dc.chunk.js.map": "/jpc0023/jamescrowell-portfolio/static/js/787.85b8a7dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8702e918.css",
+    "static/js/main.5ae34ebd.js"
+  ]
+}
