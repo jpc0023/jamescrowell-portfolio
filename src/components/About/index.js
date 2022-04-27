@@ -10,7 +10,7 @@ function About() {
 
           <div className='column-left'>
             <h2 id="about">James Crowell</h2>
-            <img id='image-3' className='user' src={pfppng}></img>
+            <img id='image-3' className='user' src="https://github.com/jpc0023/jamescrowell-portfolio/blob/main/src/assets/images/profilepic.png?raw=true"></img>
           </div>
 
           <div className='column-right'>
