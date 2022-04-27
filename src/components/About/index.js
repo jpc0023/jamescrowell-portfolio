@@ -1,5 +1,6 @@
 import React from 'react';
 import pfp from '../../assets/images/pfp.jpg';
+import pfppng from '../../assets/images/profilepic.png';
 
 function About() {
   return (
@@ -9,7 +10,7 @@ function About() {
 
           <div className='column-left'>
             <h2 id="about">James Crowell</h2>
-            <img id='image-3' className='user' src={pfp}></img>
+            <img id='image-3' className='user' src={pfppng}></img>
           </div>
 
           <div className='column-right'>
