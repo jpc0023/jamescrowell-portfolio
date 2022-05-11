@@ -1,7 +1,7 @@
 {
   "name": "jamescrowell-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/jpc0023/jamescrowell-portfolio",
+  "homepage": "https://jpc0023.github.io/jamescrowell-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

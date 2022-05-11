@@ -7,6 +7,7 @@ import taskmaster from '../../assets/images/taskmasterpro.jpg'
 import regex from '../../assets/images/regex.jpg'
 import codequiz from '../../assets/images/codequiz.jpg'
 import password from '../../assets/images/passwordgenerator.jpg'
+import buildyourpc from '../../assets/images/buildyourpc.jpg'
 
 function Project() {
 
@@ -26,6 +27,18 @@ function Project() {
                         </div>
                 </div> */}
                 <div id="lineup">
+                <div id="box-3" className="box relative">
+                        
+                        <img id="image-4" src={buildyourpc}/>
+                            <span className="caption fade-caption">
+                            <h4>Build Your PC</h4>
+                            <p> <hr></hr></p>
+                            <p>react, mongodb</p>
+                            <p className="caption-bottom">
+                                <a href="https://build-your-pc-incorporated.herokuapp.com/" target={'_blank'}>Deployed link</a>
+                            </p>
+                            </span>
+
                     <div id="box-3" className="box relative">
                         
                         <img id="image-4" src={photo}/>
