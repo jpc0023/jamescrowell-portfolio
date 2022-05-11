@@ -38,7 +38,7 @@ function Project() {
                                 <a href="https://build-your-pc-incorporated.herokuapp.com/" target={'_blank'}>Deployed link</a>
                             </p>
                             </span>
-
+                    </div>
                     <div id="box-3" className="box relative">
                         
                         <img id="image-4" src={photo}/>
